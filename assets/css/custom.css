@@ -108,6 +108,7 @@ body {
 #pgName {
   background: #4aaaa5;
   color: #ffffff;
+  border-radius: 15px 40px 15px;
 }
 
 #contactform {
