@@ -81,7 +81,8 @@ body {
 }
 
 .contactImgs {
-  padding-bottom: 5px;
+  margin: 0 10px 15px 10px;
+  border-radius: 50%;
 }
 .contactImgs:hover {
   outline: 3px groove #4aaaa5;
