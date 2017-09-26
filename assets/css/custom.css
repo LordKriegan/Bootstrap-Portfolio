@@ -67,14 +67,6 @@ body {
   background-color: #666666;
 }
 
-.content {
-  background: #ffffff;
-  border-style: groove;
-  border-width: 3px;
-  border-color: #cccccc;
-  margin-bottom:20px;
-}
-
 .pgHeader {
   color: #4aaaa5;
   margin-top: 10px;
@@ -93,6 +85,15 @@ body {
 #profilepic {
   padding: 5px;
   margin: 0 auto;
+}
+
+#content {
+  padding: 10px;
+  background: #ffffff;
+  border-style: groove;
+  border-width: 3px;
+  border-color: #cccccc;
+  margin-bottom:20px;
 }
 
 #sidebar {
