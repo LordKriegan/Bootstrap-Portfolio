@@ -1,0 +1,109 @@
+/*sticky footer styles*/
+/*https://v4-alpha.getbootstrap.com/examples/sticky-footer/sticky-footer.css*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  text-align: center;
+}
+/*sticky footer styles*/
+
+/*setting up portfolio flex*/
+/*also positions label for link*/
+#pfFlexBox {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pfLinks {
+  margin: 10px 5px 10px 5px;
+  position: relative;
+}
+
+.pfLinksImage {
+  width: 100%;
+  height: 100%;
+}
+
+.pfLinksImage:hover {
+  outline: 5px groove #4aaaa5;
+}
+
+.pfLinksTitle {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+}
+/*setting up portfolio flex*/
+
+body {
+  background-image: url("../images/background.png");
+  font-family: 'Roboto', 'Georgia', Times, Times New Roman, serif;
+}
+
+#navigation,.navbar, .navbar-default {
+  background-image: url("../images/background.png");
+}
+
+.footer {
+  color: #ffffff;
+  background-color: #666666;
+}
+
+.content {
+  background: #ffffff;
+  border-style: groove;
+  border-width: 3px;
+  border-color: #cccccc;
+  margin-bottom:20px;
+}
+
+.pgHeader {
+  color: #4aaaa5;
+  margin-top: 10px;
+}
+
+.contactImgs {
+  padding-bottom: 5px;
+}
+.contactImgs:hover {
+  outline: 3px groove #4aaaa5;
+  outline-offset: 1px;
+}
+
+#profilepic {
+  padding: 5px;
+  margin: 0 auto;
+}
+
+#sidebar {
+  background: #ffffff;
+  border-style: groove;
+  border-width: 3px;
+  border-color: #cccccc; 
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#pgName {
+  background: #4aaaa5;
+  color: #ffffff;
+}
+
