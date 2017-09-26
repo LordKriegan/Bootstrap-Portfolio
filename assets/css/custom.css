@@ -85,8 +85,9 @@ body {
   border-radius: 50%;
 }
 .contactImgs:hover {
-  outline: 3px groove #4aaaa5;
-  outline-offset: 1px;
+  /*https://stackoverflow.com/a/6810937*/
+  box-shadow: 0 0 3pt 2pt #4aaaa5;
+
 }
 
 #profilepic {
