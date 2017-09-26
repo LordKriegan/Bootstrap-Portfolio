@@ -34,12 +34,13 @@ body {
 }
 
 .pfLinksImage {
+  border-radius: 10px;
   width: 100%;
   height: 100%;
 }
 
 .pfLinksImage:hover {
-  outline: 5px groove #4aaaa5;
+  box-shadow: 0 0 3pt 2pt #4aaaa5;
 }
 
 .pfLinksTitle {
@@ -79,7 +80,6 @@ body {
 .contactImgs:hover {
   /*https://stackoverflow.com/a/6810937*/
   box-shadow: 0 0 3pt 2pt #4aaaa5;
-
 }
 
 #profilepic {
