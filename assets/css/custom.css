@@ -22,7 +22,7 @@ body {
 /*setting up portfolio flex*/
 /*also positions label for link*/
 #pfFlexBox {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -63,7 +63,7 @@ body {
 }
 
 #navigation,.navbar, .navbar-default {
-  background-image: url("../images/background.png");
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .footer {
